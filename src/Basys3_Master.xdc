@@ -44,10 +44,10 @@ set_property PACKAGE_PIN V16 [get_ports {i_A}]
  
 
 ## LEDs
-set_property PACKAGE_PIN U16 [get_ports {O_S}]					
-	set_property IOSTANDARD LVCMOS33 [get_ports {O_S}]
-set_property PACKAGE_PIN E19 [get_ports {O_Cout}]					
-	set_property IOSTANDARD LVCMOS33 [get_ports {O_Cout}]
+set_property PACKAGE_PIN U16 [get_ports {o_S}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {o_S}]
+set_property PACKAGE_PIN E19 [get_ports {o_Cout}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {o_Cout}]
 #set_property PACKAGE_PIN U19 [get_ports {led[2]}]					
 	#set_property IOSTANDARD LVCMOS33 [get_ports {led[2]}]
 #set_property PACKAGE_PIN V19 [get_ports {led[3]}]					
